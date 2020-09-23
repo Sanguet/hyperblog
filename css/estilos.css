@@ -1,6 +1,6 @@
 body
 {
-    color:gray;
+    color:#333;
     text-align: center;
     font-family: Arial;
     font-size: 16px;
@@ -31,11 +31,19 @@ body
     width: 70%;
     padding: 1cm;
     text-align: left;
-    border: 1px solid gray;
+    border: 1px solid #DDD;
     margin: 0 auto;
 }
 
 #container h1
 {
     font-size: 20px;
+}
+
+#footer 
+{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5cm;
 }
