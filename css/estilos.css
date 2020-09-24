@@ -1,5 +1,6 @@
 body
 {
+    background: gray;
     color:gray;
     text-align: center;
     font-family: Arial;
@@ -19,6 +20,13 @@ body
     font-size: 40px;
 }
 
+#cabecera #logo
+{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
 #cabezera #Tagline
 {
     padding: 0 0 0 1cm;
@@ -31,11 +39,25 @@ body
     width: 70%;
     padding: 1cm;
     text-align: left;
-    border: 1px solid gray;
+    border: 1px solid #DDD;
     margin: 0 auto;
 }
 
 #container h1
 {
     font-size: 20px;
+}
+
+#post
+{
+    background: white;
+    padding: 1em;
+}
+
+#footer 
+{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5cm;
 }
